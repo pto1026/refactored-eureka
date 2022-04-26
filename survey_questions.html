@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Questions</title>
+</head>
+
+<body>
+    <h1>Growth Mindset Survey </h1>
+
+    <h3>Please provide answers to the following personal questions.</h3>
+    <form id="sign_up" action="./confirmation.html" method="GET">
+        <section>
+            <span>Your Gender</span>
+            <input type="checkbox" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="checkbox" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </section>
+        <section><label for="age">Your Age Group</label>
+            <select id="age" name="age-group">
+                <option value="choose">Choose your age group</option>
+                <option value="Underage">12-18</option>
+                <option value="18-25">18-25</option>
+                <option value="26-35">26-35</option>
+                <option value="36-45">36-45</option>
+                <option value="46-55">46-55</option>
+                <option value="56-65">56-65</option>
+                <option value="66-75">66-75</option>
+                <option value="Above 75">Above 75</option>
+
+            </select>
+        </section>
+
+        <section>
+            <label for="education">Level of Education</label>
+            <input type="text" list="educational_status" id="education" name="education">
+            <datalist id="educational_status">
+
+                <option value="No schooling completed"></option>
+                <option value="Nursery school to 8th grade"></option>
+                <option value="Some high school, no diploma"></option>
+                <option value="High school graduate, diploma or the equivalent"></option>
+                <option value="Some college credit, no degree"></option>
+                <option value="Trade/technical/vocational training"></option>
+                <option value="Associate degree"></option>
+                <option value="Bachelor’s degree"></option>
+                <option value="Master’s degree"></option>
+                <option value="Professional degree"></option>
+                <option value="Doctorate degree"></option>
+
+            </datalist>
+        </section>
+        <br>
+
+
+
+        <hr>
+        <br>
+
+        <h3>Simply choose how you feel about the following statements.</h3>
+
+        <section>
+            <ol>
+                <li><span>Intelligence is a trait you can't change.</span>
+                    <br>
+                    <input type="radio" name="agreement-level" id="strongly-disagree" value="strongly-disagree">
+                    <label for="strongly-disagree">Strongly Disagree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="disagree" value="disagree">
+                    <label for="disagree">Disagree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="agree" value="agree">
+                    <label for="agree">Agree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="strongly-agree" value="strongly-agree">
+                    <label for="strongly-agree">Strongly Agree</label>
+
+                </li>
+
+                <li><span>Intelligence can change with hard work and perseverance.</span>
+                    <br>
+                    <input type="radio" name="agreement-level" id="strongly-disagree" value="strongly-disagree">
+                    <label for="strongly-disagree">Strongly Disagree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="disagree" value="disagree">
+                    <label for="disagree">Disagree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="agree" value="agree">
+                    <label for="agree">Agree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="strongly-agree" value="strongly-agree">
+                    <label for="strongly-agree">Strongly Agree</label>
+                </li>
+
+                <li><span>I feel bad about myself when I make a mistake and my confidence suffers.</span>
+                    <br>
+                    <input type="radio" name="agreement-level" id="strongly-disagree" value="strongly-disagree">
+                    <label for="strongly-disagree">Strongly Disagree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="disagree" value="disagree">
+                    <label for="disagree">Disagree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="agree" value="agree">
+                    <label for="agree">Agree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="strongly-agree" value="strongly-agree">
+                    <label for="strongly-agree">Strongly Agree</label>
+                </li>
+
+                <li><span>I feel nervous about taking on new challenges and trying new things; I prefer to avoid
+                        them.</span>
+                    <br>
+                    <input type="radio" name="agreement-level" id="strongly-disagree" value="strongly-disagree">
+                    <label for="strongly-disagree">Strongly Disagree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="disagree" value="disagree">
+                    <label for="disagree">Disagree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="agree" value="agree">
+                    <label for="agree">Agree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="strongly-agree" value="strongly-agree">
+                    <label for="strongly-agree">Strongly Agree</label>
+                </li>
+
+                <li><span>I enjoy trying new things and taking on new challenges.</span>
+                    <br>
+                    <input type="radio" name="agreement-level" id="strongly-disagree" value="strongly-disagree">
+                    <label for="strongly-disagree">Strongly Disagree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="disagree" value="disagree">
+                    <label for="disagree">Disagree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="agree" value="agree">
+                    <label for="agree">Agree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="strongly-agree" value="strongly-agree">
+                    <label for="strongly-agree">Strongly Agree</label>
+                </li>
+
+                <li><span>Only a few people are extremely talented and they are born with it.</span>
+                    <br>
+                    <input type="radio" name="agreement-level" id="strongly-disagree" value="strongly-disagree">
+                    <label for="strongly-disagree">Strongly Disagree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="disagree" value="disagree">
+                    <label for="disagree">Disagree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="agree" value="agree">
+                    <label for="agree">Agree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="strongly-agree" value="strongly-agree">
+                    <label for="strongly-agree">Strongly Agree</label>
+                </li>
+
+                <li><span>The harder you work at something, the more skilled you’ll become.</span>
+                    <br>
+                    <input type="radio" name="agreement-level" id="strongly-disagree" value="strongly-disagree">
+                    <label for="strongly-disagree">Strongly Disagree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="disagree" value="disagree">
+                    <label for="disagree">Disagree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="agree" value="agree">
+                    <label for="agree">Agree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="strongly-agree" value="strongly-agree">
+                    <label for="strongly-agree">Strongly Agree</label>
+                </li>
+
+                <li><span>I often feel discouraged or angry when I receive negative feedback about my
+                        performance.</span>
+                    <br>
+                    <input type="radio" name="agreement-level" id="strongly-disagree" value="strongly-disagree">
+                    <label for="strongly-disagree">Strongly Disagree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="disagree" value="disagree">
+                    <label for="disagree">Disagree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="agree" value="agree">
+                    <label for="agree">Agree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="strongly-agree" value="strongly-agree">
+                    <label for="strongly-agree">Strongly Agree</label>
+                </li>
+
+                <li><span>Learning is a lifelong pursuit and I enjoy learning new things.</span>
+                    <br>
+                    <input type="radio" name="agreement-level" id="strongly-disagree" value="strongly-disagree">
+                    <label for="strongly-disagree">Strongly Disagree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="disagree" value="disagree">
+                    <label for="disagree">Disagree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="agree" value="agree">
+                    <label for="agree">Agree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="strongly-agree" value="strongly-agree">
+                    <label for="strongly-agree">Strongly Agree</label>
+                </li>
+
+                <li><span>People rarely change much; you simply are a certain kind of person.</span>
+                    <br>
+                    <input type="radio" name="agreement-level" id="strongly-disagree" value="strongly-disagree">
+                    <label for="strongly-disagree">Strongly Disagree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="disagree" value="disagree">
+                    <label for="disagree">Disagree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="agree" value="agree">
+                    <label for="agree">Agree</label>
+                    <br>
+                    <input type="radio" name="agreement-level" id="strongly-agree" value="strongly-agree">
+                    <label for="strongly-agree">Strongly Agree</label>
+                </li>
+            </ol>
+        </section>
+
+        <hr>
+        <br>
+        <br>
+        <section>
+            <label for=" satisfaction">How do you rate the clarity of the questions on a
+                scale of 1 to 5, with 1 meaning very unclear and 5 meaning very clear?</label>
+            <br>
+            <span>Unclear</span>
+            <input type="range" name="satisfaction" id="satisfaction">
+            <span>Clear</span>
+        </section>
+
+        <section>
+            <label for=" extra">How did it make you feel to answer the above questions?</label>
+            <br>
+            <textarea id="extra" name="extra" rows="3" cols="40"> </textarea>
+
+        </section>
+
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+
+</html>
